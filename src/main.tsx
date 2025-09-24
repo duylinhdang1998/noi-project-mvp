@@ -9,7 +9,7 @@ import { appTheme } from './theme';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ConfigProvider theme={appTheme}>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={null}>
         <RouterProvider router={router} />
       </Suspense>
     </ConfigProvider>
