@@ -186,16 +186,6 @@ const OrganizationSignupPage = () => {
             </Form.Item>
           </Form>
         </div>
-
-        {/* Footer */}
-        <div className='text-center mt-8'>
-          <div className='text-sm text-gray-500'>
-            Made with{' '}
-            <span className='inline-flex items-center'>
-              <span className='text-blue-600 font-semibold'>Visily</span>
-            </span>
-          </div>
-        </div>
       </div>
     </div>
   );
